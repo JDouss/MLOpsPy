@@ -12,7 +12,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "eastus",
+      "defaultValue": "westeurope",
       "metadata": {
         "description": "Specifies the location for all resources."
       }
@@ -22,19 +22,19 @@
     },
     "storageAccount": {
       "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')), 'amlsa')]"
+      "defaultValue": "[concat(toLower(parameters('baseName')), 'amlsa-jadoussi')]"
     },
     "keyvault": {
       "type": "string",
-      "defaultValue": "[concat(parameters('baseName'),'-AML-KV')]"
+      "defaultValue": "[concat(parameters('baseName'),'-AML-KV-jadoussi')]"
     },
     "appInsights": {
       "type": "string",
-      "defaultValue": "[concat(parameters('baseName'),'-AML-AI')]"
+      "defaultValue": "[concat(parameters('baseName'),'-AML-AI-jadoussi')]"
     },
     "acr": {
       "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')),'amlcr')]"
+      "defaultValue": "[concat(toLower(parameters('baseName')),'amlcrjadoussi')]"
     },
     "sku": {
       "type": "string",
