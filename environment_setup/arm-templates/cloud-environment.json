@@ -22,7 +22,7 @@
     },
     "storageAccount": {
       "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')), 'amlsa-jadoussi')]"
+      "defaultValue": "[concat(toLower(parameters('baseName')), 'amlsajadoussi')]"
     },
     "keyvault": {
       "type": "string",
